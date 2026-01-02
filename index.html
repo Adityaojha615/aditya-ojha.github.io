@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Aditya Ojha – Frontend Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Aditya Ojha | Frontend Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -12,15 +12,14 @@
 
 <div class="layout">
 
-  <!-- LEFT PANEL -->
-  <aside class="left">
-    <h1>Aditya<br>Ojha</h1>
-    <p class="role">Frontend Software Engineer</p>
+  <!-- LEFT FIXED PANEL -->
+  <aside class="sidebar">
+    <h1>Aditya<br/>Ojha</h1>
+    <p class="role">Frontend Software Developer</p>
 
     <div class="meta">
-      <span>React • Angular</span>
-      <span>2.5+ Years Experience</span>
-      <span>India</span>
+      <span>📍 India</span>
+      <span>💼 2.5+ yrs</span>
     </div>
 
     <div class="links">
@@ -31,84 +30,88 @@
   </aside>
 
   <!-- RIGHT CONTENT -->
-  <main class="right">
+  <main class="content">
 
-    <section class="block reveal">
-      <h2>Profile</h2>
+    <!-- INTRO -->
+    <section class="block">
+      <h2>Overview</h2>
       <p>
-        Frontend Software Developer with 2.5+ years of experience building
-        production-grade web applications. Focused on clean UI architecture,
-        performance optimization, and scalable frontend systems.
+        Frontend Software Developer with strong experience in building
+        scalable, performance-driven web applications using
+        React, Angular and modern JavaScript.
       </p>
     </section>
 
-    <section class="block reveal">
-      <h2>Core Skills</h2>
+    <!-- SKILLS -->
+    <section class="block">
+      <h2>Skill Stack</h2>
 
-      <div class="skill-row">
-        <span>Frontend</span>
-        <p>React, Angular, JavaScript (ES6+), HTML, CSS, Tailwind</p>
-      </div>
-
-      <div class="skill-row">
-        <span>Backend</span>
-        <p>Node.js, Express, REST APIs, PostgreSQL</p>
-      </div>
-
-      <div class="skill-row">
-        <span>Tools</span>
-        <p>Git, GitHub, Vite, Postman, CI/CD Basics</p>
-      </div>
-
-      <div class="skill-row">
-        <span>AI & Automation</span>
-        <p>ChatGPT, GitHub Copilot, Debugging Automation</p>
+      <div class="chip-grid">
+        <span>React.js</span>
+        <span>Angular</span>
+        <span>JavaScript (ES6+)</span>
+        <span>Tailwind CSS</span>
+        <span>HTML5 / CSS3</span>
+        <span>Node.js</span>
+        <span>REST APIs</span>
+        <span>PostgreSQL</span>
+        <span>Git / GitHub</span>
+        <span>Vite</span>
       </div>
     </section>
 
-    <section class="block reveal">
-      <h2>Experience & Work</h2>
+    <!-- EXPERIENCE -->
+    <section class="block">
+      <h2>Experience</h2>
 
-      <div class="work">
-        <h3>Krivina Technocraft LLP</h3>
-        <p>
-          Built responsive interfaces using React & Tailwind, integrated REST APIs,
-          handled backend logic with Node.js & PostgreSQL, and optimized performance.
-        </p>
+      <div class="timeline">
+        <div class="item">
+          <h3>Software Developer — Krivina Technocraft LLP</h3>
+          <p>
+            Built and maintained React-based interfaces, integrated APIs,
+            optimized UI performance and supported backend logic.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>Junior Software Engineer — Mentor Infotech</h3>
+          <p>
+            Developed Angular UI components, integrated Spring Boot APIs
+            and supported production releases.
+          </p>
+        </div>
       </div>
+    </section>
 
-      <div class="work">
-        <h3>Mentor Infotech Solutions</h3>
-        <p>
-          Developed Angular components, integrated Spring Boot APIs,
-          and supported production UI releases.
-        </p>
+    <!-- PROJECTS -->
+    <section class="block">
+      <h2>Key Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Library Management System</h4>
+          <p>React-based system for issuing/returning books with API-driven backend.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>College Portal (MNNIT)</h4>
+          <p>Attendance, notices & assignments with real-time data sync.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>Employee Management System</h4>
+          <p>Enterprise UI for employee records and attendance tracking.</p>
+        </div>
       </div>
     </section>
 
-    <section class="block reveal">
-      <h2>Projects</h2>
-
-      <div class="project">
-        <strong>Library Management System (Army Unit)</strong>
-        <p>Book issue/return system with due-date tracking and role-based access.</p>
-      </div>
-
-      <div class="project">
-        <strong>College Portal (MNNIT)</strong>
-        <p>Attendance, notices & assignment system with real-time updates.</p>
-      </div>
-
-      <div class="project">
-        <strong>Employee Management System</strong>
-        <p>Enterprise UI for employee records & attendance.</p>
-      </div>
-    </section>
+    <!-- FOOTER -->
+    <footer>
+      © 2026 Aditya Ojha — Frontend Engineer
+    </footer>
 
   </main>
-
 </div>
 
-<script src="script.js"></script>
 </body>
 </html>
