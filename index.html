@@ -1,38 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Aditya Ojha | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Aditya Ojha | Frontend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 
-  <header>
-    <h1>Aditya Ojha</h1>
-    <p>Frontend Software Developer | React.js, Angular, Tailwind CSS | API Integration & UI Optimization</p>
-    <div class="buttons">
-      <a href="https://www.linkedin.com/in/aditya-ojha-944907215/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Adityaojha615" target="_blank">GitHub</a>
-      <a href="mailto:adityaojha615@gmail.com">Email Me</a>
+<!-- NAV -->
+<nav class="nav">
+  <div class="logo">AO.</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Aditya Ojha</h1>
+  <h2>Frontend Software Developer</h2>
+  <p>
+    Building scalable, high-performance web applications using
+    React, Angular & modern JavaScript.
+  </p>
+
+  <div class="hero-actions">
+    <a href="mailto:adityaojha615@gmail.com">Hire Me</a>
+    <a href="https://github.com/Adityaojha615" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
+  <h3>About Me</h3>
+  <p class="about-text">
+    Frontend Software Developer with <b>2.5+ years</b> of hands-on experience
+    delivering production-ready applications. Strong in UI architecture,
+    API integration, performance optimization and clean code practices.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+  <h3>Technical Skills</h3>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <span>Frontend</span>
+      <p>React, Angular, JavaScript (ES6+), HTML, CSS, Tailwind</p>
     </div>
-  </header>
 
-  <section>
-    <h2>Professional Summary</h2>
-    <p>
-      Frontend Software Developer with 2.5 years of experience building responsive, performance-optimized web applications.
-      Skilled in React.js, Angular, Tailwind CSS, Node.js, PostgreSQL. Experienced in delivering production-ready features in agile environments.
-    </p>
-  </section>
+    <div class="skill-card">
+      <span>Backend</span>
+      <p>Node.js, Express, REST APIs, PostgreSQL</p>
+    </div>
 
-  <footer>
-    <p>&copy; 2026 Aditya Ojha | <a href="mailto:adityaojha615@gmail.com">Email</a> | <a href="https://github.com/Adityaojha615">GitHub</a></p>
-  </footer>
+    <div class="skill-card">
+      <span>Tools</span>
+      <p>Git, GitHub, Postman, Vite, CI/CD basics</p>
+    </div>
+
+    <div class="skill-card">
+      <span>AI & Automation</span>
+      <p>ChatGPT, GitHub Copilot, Debugging & Code Automation</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section reveal">
+  <h3>Selected Projects</h3>
+
+  <div class="projects-grid">
+
+    <div class="project">
+      <h4>Library Management System (Army Unit)</h4>
+      <p>
+        React-based system for issuing & returning books with due-date tracking,
+        role-based access and backend API integration.
+      </p>
+    </div>
+
+    <div class="project">
+      <h4>College Portal (MNNIT)</h4>
+      <p>
+        Attendance, notices & assignments portal with real-time backend
+        integration and clean UI workflows.
+      </p>
+    </div>
+
+    <div class="project">
+      <h4>Employee Management System</h4>
+      <p>
+        Enterprise UI for managing employee records, attendance and reports
+        with optimized API data handling.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact reveal">
+  <h3>Contact</h3>
+
+  <div class="contact-links">
+    <a href="mailto:adityaojha615@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/aditya-ojha-944907215/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Adityaojha615" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Aditya Ojha — Frontend Developer
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
