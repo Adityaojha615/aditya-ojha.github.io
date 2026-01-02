@@ -2,127 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Aditya Ojha — Frontend Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Ojha | Frontend Software Developer</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div class="page">
-
   <!-- HEADER -->
-  <header class="header">
+  <header class="container header">
     <div>
       <h1>Aditya Ojha</h1>
-      <p class="title">Frontend Software Engineer</p>
+      <p class="role">Frontend Software Developer</p>
     </div>
-
-    <div class="header-links">
-      <a href="mailto:adityaojha615@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/aditya-ojha-944907215/" target="_blank">LinkedIn</a>
+    <div class="contact">
+      <a href="mailto:adityaojha615@gmail.com">adityaojha615@gmail.com</a>
+      <span>+91-9140987336</span>
+      <a href="https://linkedin.com/in/aditya-ojha-944907215/" target="_blank">LinkedIn</a>
       <a href="https://github.com/Adityaojha615" target="_blank">GitHub</a>
     </div>
   </header>
 
   <!-- SUMMARY -->
-  <section class="section">
-    <h2>Summary</h2>
-    <p class="lead">
-      Frontend Engineer with 2.5+ years of experience building
-      scalable, maintainable web applications using React, Angular,
-      and modern JavaScript. Strong focus on UI architecture,
-      performance optimization, and clean engineering practices.
+  <section class="container section">
+    <h2>Professional Summary</h2>
+    <p class="summary">
+      Frontend Software Developer with 2.5 years of hands-on experience building
+      responsive, scalable, and performance-optimized web applications using
+      React.js, Angular, JavaScript, and Tailwind CSS. Strong in API integration,
+      debugging, UI optimization, and collaborating in agile environments.
+      Supporting backend knowledge of Node.js and PostgreSQL.
     </p>
   </section>
 
   <!-- SKILLS -->
-  <section class="section grid-2">
-    <div>
-      <h2>Core Expertise</h2>
-      <ul class="list">
-        <li>Frontend Architecture & Component Design</li>
-        <li>React & Angular Application Development</li>
-        <li>State Management & API Integration</li>
-        <li>Performance Optimization & Debugging</li>
-      </ul>
-    </div>
+  <section class="container section">
+    <h2>Technical Skills</h2>
 
-    <div>
-      <h2>Technology Stack</h2>
-      <ul class="list muted">
-        <li>React, Angular, JavaScript (ES6+)</li>
-        <li>HTML5, CSS3, Tailwind CSS</li>
-        <li>Node.js, REST APIs, PostgreSQL</li>
-        <li>Git, GitHub, Vite, Postman</li>
-      </ul>
+    <div class="grid-3">
+      <div>
+        <h3>Frontend</h3>
+        <ul>
+          <li>React.js, Angular</li>
+          <li>JavaScript (ES6+)</li>
+          <li>HTML5, CSS3</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js, Express.js</li>
+          <li>REST APIs</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Tools & Workflow</h3>
+        <ul>
+          <li>Git, GitHub</li>
+          <li>Postman, NPM</li>
+          <li>Vite, CI/CD Basics</li>
+          <li>Chrome DevTools</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- EXPERIENCE -->
-  <section class="section">
-    <h2>Professional Experience</h2>
+  <section class="container section">
+    <h2>Experience</h2>
 
     <div class="experience">
-      <div class="role">
-        <h3>Software Developer — Krivina Technocraft LLP</h3>
-        <span>2025 – Present</span>
+      <div class="exp-header">
+        <h3>Software Developer</h3>
+        <span>Krivina Technocraft LLP</span>
+      </div>
+      <ul>
+        <li>Built and maintained responsive web interfaces using React.js and Tailwind CSS</li>
+        <li>Integrated REST APIs with proper error handling and data flow</li>
+        <li>Worked on backend logic using Node.js and PostgreSQL</li>
+        <li>Debugged issues and optimized application performance</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <div class="exp-header">
+        <h3>Frontend Developer (Project-Based)</h3>
+        <span>Self-Managed / Contract</span>
+      </div>
+      <ul>
+        <li>Developed real-world React.js applications</li>
+        <li>Implemented UI features based on business requirements</li>
+        <li>Connected frontend with backend APIs and handled state</li>
+      </ul>
+    </div>
+
+    <div class="experience">
+      <div class="exp-header">
+        <h3>Junior Software Engineer</h3>
+        <span>Mentor Infotech Solutions</span>
+      </div>
+      <ul>
+        <li>Developed reusable UI components using Angular</li>
+        <li>Integrated REST APIs built with Spring Boot</li>
+        <li>Fixed UI bugs and supported production releases</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="container section">
+    <h2>Projects</h2>
+
+    <div class="grid-2">
+      <div class="project">
+        <h3>Library Management System (Army Unit)</h3>
         <p>
-          Built and maintained React-based interfaces, integrated REST APIs,
-          improved UI performance, and contributed to backend logic using
-          Node.js and PostgreSQL.
+          Web application for issuing and returning books with due-date tracking.
+          Built responsive UI using React.js and integrated backend APIs for books,
+          users, and transactions.
         </p>
       </div>
 
-      <div class="role">
-        <h3>Junior Software Engineer — Mentor Infotech Solutions</h3>
-        <span>2022 – 2023</span>
+      <div class="project">
+        <h3>College Portal (MNNIT)</h3>
         <p>
-          Developed Angular UI components, integrated Spring Boot APIs,
-          fixed production UI bugs, and supported stable releases.
+          Attendance, notices, and assignment modules with real-time data updates.
+          Focused on usability, clean UI, and data accuracy.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Employee Management System</h3>
+        <p>
+          Enterprise application for employee records and attendance management.
+          Designed UI, integrated REST APIs, and improved responsiveness.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section class="section">
-    <h2>Selected Work</h2>
+  <!-- EDUCATION -->
+  <section class="container section">
+    <h2>Education</h2>
 
-    <div class="projects">
-      <div class="project">
-        <h4>Library Management System (Army Unit)</h4>
-        <p>
-          Designed and developed a React-based system for issuing and
-          returning books with due-date tracking and API-driven backend.
-        </p>
-      </div>
+    <div class="education">
+      <p><strong>B.Tech – Computer Science Engineering</strong><br/>
+        Bansal Institute of Engineering & Technology (AKTU) — 70%</p>
 
-      <div class="project">
-        <h4>College Portal (MNNIT)</h4>
-        <p>
-          Implemented attendance, notices, and assignment modules with
-          real-time backend integration and clean UI workflows.
-        </p>
-      </div>
-
-      <div class="project">
-        <h4>Employee Management System</h4>
-        <p>
-          Built enterprise UI for managing employee records and attendance,
-          focusing on responsiveness and data accuracy.
-        </p>
-      </div>
+      <p><strong>Intermediate (XII)</strong> — Science — 75%</p>
+      <p><strong>High School (X)</strong> — 73%</p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>© 2026 Aditya Ojha</p>
+    <p>© 2026 Aditya Ojha • Frontend Software Developer</p>
   </footer>
-
-</div>
 
 </body>
 </html>
