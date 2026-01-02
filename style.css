@@ -39,6 +39,32 @@ body {
   min-height: 100vh;
 }
 
+
+/* RESUME DOWNLOAD */
+.resume-box {
+  margin-top: 40px;
+}
+
+.resume-box a {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1px solid rgba(147, 197, 253, 0.4);
+  border-radius: 10px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.resume-box a:hover {
+  background: rgba(147, 197, 253, 0.12);
+  transform: translateY(-2px);
+}
+
+
 /* ===============================
    SIDEBAR
 ================================ */
